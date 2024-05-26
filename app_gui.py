@@ -9,7 +9,7 @@ import pytz
 
 
 # Set the path to the Oracle Instant Client directory within the Docker container
-instant_client_dir = "./instantclient_21_7"
+instant_client_dir = os.path.join(os.getcwd(), "instantclient_21_7")
 
 # Initialize the Oracle client library path
 try:
