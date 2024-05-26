@@ -12,7 +12,7 @@ import pytz
 instant_client_dir = os.path.join(os.getcwd(), "instantclient_21_13")
 
 # Add the Oracle Instant Client directory to the LD_LIBRARY_PATH environment variable
-os.environ["LD_LIBRARY_PATH"] = instant_client_dir
+# os.environ["LD_LIBRARY_PATH"] = instant_client_dir
 
 # Initialize the Oracle client library path
 try:
